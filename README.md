@@ -2,6 +2,9 @@
 
 A modern and responsive Bank Account Simulator built using HTML, CSS, and JavaScript. This project demonstrates basic banking operations with a clean user interface.
 
+# Live Demo
+https://bank-account-simulator-three.vercel.app/
+
 ## 📌 Features
 
 - 💰 Deposit Money
