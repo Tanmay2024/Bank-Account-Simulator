@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Simulator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            🏦 Secure Bank
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div class="main-content">
+
+        <section class="hero">
+            <h2>Welcome to Secure Bank</h2>
+            <p>Your Money, Our Responsibility</p>
+
+            <p class="hero-desc">
+                Experience simple, secure and reliable banking with our interactive Bank Account Simulator.
+            </p>
+
+        </section>
+
+        <div class="container">
+
+            <h1>🏦 Secure Bank Account Simulator</h1>
+
+            <div class="balance-box">
+                <h2>💳 Available Balance</h2>
+                <h3 id="balance">₹5000</h3>
+            </div>
+
+            <input type="number" id="amount" placeholder="Enter amount to deposit or withdraw" min="1">
+
+            <div class="buttons">
+
+                <button onclick="deposit()">
+                    Deposit
+                </button>
+
+                <button onclick="withdraw()">
+                    Withdraw
+                </button>
+
+                <button onclick="checkBalance()">
+                    Check Balance
+                </button>
+
+                <button onclick="resetBalance()">
+                    Reset
+                </button>
+
+            </div>
+
+            <p id="message"></p>
+            <hr>
+            <div class="footer">
+                <p>
+                    Developed by Tanmay Guruvugari
+                </p>
+
+                <small>
+                    © 2026 Secure Bank. All Rights Reserved.
+                </small>
+
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

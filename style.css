@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("images/bank-bg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    color: white;
+    margin-top:0px;
+    margin-right: 40px;
+    transition:.35s ease;
+}
+
+.container:hover{
+    transform:translateY(-8px);
+    box-shadow:0 25px 50px rgba(0,0,0,.45);
+}
+
+h1 {
+    color:white;
+    margin-bottom: 20px;
+}
+
+.balance-box {
+    background: #0a3d62;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.balance-box h3 {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #0a3d62;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e5f8a;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 30px;
+    color:#4FC3F7;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    color:white;
+    opacity:.9;
+    font-size: 14px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px 60px;
+    background: #08264d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00d9ff;
+}
+
+.welcome {
+    font-size: 17px;
+    color: white;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #dfefff;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.main-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    max-width:1400px;
+    margin:120px auto 0;
+}
+
+.hero{
+    width:45%;
+    color:white;
+}
+
+.hero h2{
+    font-size:48px;
+    line-height:1.1;
+    margin-bottom:20px;
+    text-shadow:2px 2px 12px black;
+}
+
+.hero p{
+    font-size:22px;
+    color:#dcefff;
+    margin-bottom:35px;
+}
+
+.hero-desc{
+    margin-top:20px;
+    margin-bottom:20px;
+    color:#f0f5ff;
+    font-size:17px;
+    line-height:28px;
+    max-width:500px;
+}
